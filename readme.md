@@ -1,3 +1,5 @@
+Multi-threaded app that generates alternating input of two URLs, controlling the waiting time between each one, and calculating the response time of each request
+
 Testing was done with the insidesound backend connected to rds. He himself has two strategies for request control.
  The most used Controller-Service-Dao and a buffered Queue implementation
 
