@@ -15,13 +15,15 @@ Ne= Number of errors
 [![Nr300-Td10-Ne15](images/local-rds-300.png)]
 
 
-scenario one: request with queue (local-queue-rds.py)
+scenario two: request with queue (local-queue-rds.py)
 
 
 [![Nr100-Td10-Ne0](images/loca-queuel-rds-100.png)]
 
 [![Nr300-Td10-Ne0](images/loca-queuel-rds-300.png)]
 
+
+Conclusion: It is observed that with 300 requests without errors, they disappear with the implementation of the queue with buffer
 
 About the implementation in the backend inside
 Request Queue: You have created a queue (requestIdQueue) to store incoming MP3 requests. When a request arrives, it is queued into this data structure.
