@@ -2,9 +2,14 @@ Testing was done with the insidesound backend connected to rds. He himself has t
  The most used Controller-Service-Dao and a buffered Queue implementation
 
 
+ [![Description](images/description.png)]
+
+
  Two test scenarios were created, number of threads, time between requests and response and processing times were measured. and the https status
 
 scenario one: request without queue (local-rds.py)
+
+ [![scenario1](images/escn1.png)]
 
 Nr = Number of requests
 Td = Time between requests
@@ -16,6 +21,8 @@ Ne= Number of errors
 
 
 scenario two: request with queue (local-queue-rds.py)
+
+[![scenario2](images/escn2.png)]
 
 
 [![Nr100-Td10-Ne0](images/loca-queuel-rds-100.png)]
